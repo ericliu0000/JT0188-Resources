@@ -1,0 +1,43 @@
+from manim import *
+
+
+class Reduction(Scene):
+    def construct(self):
+        # Create the sulfur atom (r=0.5, yellow, solid fill)
+
+        # Create the electron (r=0.25, blue, solid fill)
+
+        # Make a copy of the electron
+
+        # Group the sulfur atom and both electrons together
+
+        # Create top and bottom text objects styled however you want
+        # Top text should say "Oxidation"
+        # Bottom text should contain the oxidation reaction of Sulfur
+
+        # Create top and bottom text objects styled however you want
+        # Top text should say "Reduction"
+        # Bottom text should contain the reduction reaction of Sulfur
+
+        # Create sulfur object
+
+        # Fade in both electrons
+        
+        # Move both electrons down and away from the sulfur atom (one to the left, one to the right) (animation run times = 1 second)
+
+        # Make oxidation text objects, then wait for 3 seconds
+
+        # Uncreate the oxidation text, and animate the full elements group shifting right 10 units (animation run time = 1 second)
+
+        # Shift (do not animate) the elements group left 20 units
+
+        # Animate the full elements group shifting right 10 units
+
+        # Tip: These animations are the same as the ones above for oxidation; just flipped in many ways
+        # Move both electrons up and into the sulfur atom (one to the left, one to the right) (animation run times = 1 second)
+
+        # Fade out both electrons
+
+        # Make reduction text objects, then wait for 3 seconds
+
+        # Uncreate the reduction text, and animate the full elements group shifting right 10 units (animation run time = 1 second)
