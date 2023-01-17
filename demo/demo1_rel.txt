@@ -1,0 +1,22 @@
+from manim import *
+'''
+Either one of ``"spring"`` (the default), ``"circular"``, ``"kamada_kawai"``,
+``"planar"``, ``"random"``, ``"shell"``, ``"spectral"``, ``"spiral"``, ``"tree"``, and ``"partite"``
+
+'''
+# class name
+class Example1(Scene):
+    def construct(self):
+        
+        # create a path graph of 6 vertices, with circular layout
+        # create a path graph of 6 vertices, with spring layout
+
+        # draw the graph
+        # highlight each vertex
+        # wait for 2 seconds
+        # draw the new graph
+        # wait for 2 seconds
+        # highlight each vertex
+        # wait for 2 seconds
+        # draw the new graph
+        # wait for 2 seconds
