@@ -34,7 +34,7 @@ class Reduction(Scene):
         self.play(FadeIn(e, e2))
         
         # Move both electrons down and away from the sulfur atom (one to the left, one to the right) (animation run times = 1 second)
-        self.play(e.animate(run_time=1).shift(DOWN + RIGHT), e2.animate(run_time=1).shift(DOWN + LEFT))
+        self.play(e.animate(run_time=1).shift(1 * np.array((3.7, 2.0, 0.0)) + 1 * RIGHT), e2.animate(run_time=1).shift(DOWN + LEFT))
 
         # Make oxidation text objects, then wait for 3 seconds
         self.play(Create(ox_text), Create(ox_rxn))

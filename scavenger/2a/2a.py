@@ -5,6 +5,7 @@ class Animation(Scene):
         mobject = Circle(3, color=GREEN_C)
         text = Text("Here is my equation").shift(DOWN * 2)
         equation = MathTex("f(x)").move_to(mobject, UP)
+        # equation = Text("f(x)").move_to(mobject, UP)
 
         self.play(Create(mobject))
         self.play(mobject.animate().shift(LEFT * 3))
