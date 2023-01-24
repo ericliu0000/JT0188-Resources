@@ -1,7 +1,14 @@
 from manim import *
 from constants import *
 
-
+"""
+Script: 
+Here, we construct a cycle graph with three vertices, and place the fox and hare
+on any two of them that don't overlap. In this case, the hare can not move away
+from where the fox can move, being cornered immediately. This is because every 
+vertex is adjacent to every other vertex. The fox then moves on top of the hare,
+and the hare is thus deceased.
+"""
 class NoWait(Scene):
     def construct(self):
         graph = Graph(ThreeCycleGraphConstants.VERTICES,
