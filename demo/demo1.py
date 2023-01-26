@@ -25,7 +25,7 @@ class Example1(Scene):
         self.play(Create(g))
 
         # highlight each vertex
-        for i in range(50):
+        for i in range(6):
             self.play(Indicate(g.vertices[i], color=BLUE, radius=5, run_time=2))
             self.wait(0.2)
 
